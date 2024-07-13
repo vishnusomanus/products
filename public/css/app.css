@@ -1,0 +1,6 @@
+img.active {
+    border: 5px solid blue;
+}
+div.hidden {
+    display: none;
+}
