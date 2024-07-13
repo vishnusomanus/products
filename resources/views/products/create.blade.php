@@ -42,7 +42,7 @@
             
             <div id="variants-container">
                 <input type="hidden" value="" name="variants" value="{{ old('variants') }}" id="variants_hidden">
-                <div class="form-group mt-2 mb-2">
+                <div class="form-group mt-2 mb-2" id="variant-items">
                     <label for="variants">Variants</label>
                     @if(old('variants'))
                         @php
